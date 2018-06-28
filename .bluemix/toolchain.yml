@@ -63,9 +63,6 @@ deploy:
     $ref: deploy.json
   service-category: pipeline
   parameters:
-    selected-region: "{{region}}"
-    selected-organization: "{{organization}}"
-    selected-space: "{{space}}"
     ui-app-name: "{{name}}-webui"
     dashboard-app-name: "{{name}}-dashboard"
     ui-branch-name: "master"
